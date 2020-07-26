@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+
+<style>
+body
+{
+	background:#B3B3B3;
+	font-size:125%;
+	margin:4%;
+}
+
+h1{
+	background:#666666;
+	color:#ffffff;
+	text-align:center;
+	border:inset 1px;
+	font-variant:small-caps;
+}
+
+h2{
+	color:#fb77d1;
+	font-variant:small-caps;
+	font-family:arial,"Times New Roman",serif;
+	text-align:center;
+	background:#666666;
+	border:inset 1px;
+}
+
+header{
+	text-align:center;
+}
+
+p{
+	text-align:center;
+}
+
+nav{
+	text-align:center;
+	background:linear-gradient(#00b7ea 0%,#7ec3d6 100%);
+	color:#e91e63;
+	text-align:center;
+	border:inset white 2px;
+	border-radius:5px;
+
+	margin:5px;
+
+	padding:5px;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	text-align:center;
+}
+
+c{
+	color:orange;
+}
+
+ul{
+	list-style-type: square;
+}
+
+table.num{
+	color:#06425C;
+	border-spacing:0;
+	border:3px solid black;
+	-webkit-border-radius:25px 25px 0 0;
+	border-radius:0 0 25px 25px;
+}
+
+tr:last-child>td:last-child{
+	-webkit-border-radius:0 0 25px 0;
+	border-radius:0 0 25px 0;
+}
+tr:last-child>td:first-child{
+	-webkit-border-radius:0 0 0 25px;
+	border-radius:0 0 0 25px;
+}
+
+.num caption{
+	text-transform:uppercase;
+	background-color:#666666;
+	color:#ffffff;
+	font-size:150%;
+	-webkit-border-radius:25px 25px 0 0;
+	border-radius:25px 25px 0 0;
+}
+
+tr:nth-child(odd){
+	background:#F2F2F2;
+}
+
+tr:nth-child(even){
+	background:#CDBB79;
+}
+
+.num th,.num td{
+	margin:2px;
+	padding-botton:2px;
+}
+
+th{
+	text-align:center;
+	background:#ffffff;
+}
+
+.num td{
+	width:80px;
+	height:60px;
+	text-align:center;
+}
+
+span{
+	dispaly:block;
+	text-align:center;
+	color:#800000;
+	visibility: hidden;
+}
+
+td:active>span{
+	visibility:visible;
+}
+	
+table{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+video {
+	display: block;
+width: auto;
+	margin: 0 auto; 
+}
+div{
+	width:90%;
+
+	background:linear-gradient(#00ffff 0%,#aedede 100%);
+
+	display:block;
+	padding:5px;
+	margin:10px;
+
+	-webkit-border:inset #ffffff 4px;
+	-moz-border:inset #ffffff 4px;
+	-ms-border:inset #ffffff 4px;
+	-o-border:inset #ffffff 4px;
+	border:inset #ffffff 4px;
+
+	border-radius:10px;
+
+}
+@media only screen and (min-width:780px)
+{ div{display:table-cell;
+      width:30%}
+}
+
+
+a{
+	font-weight:bold;
+	color:#ffffff;
+	background:#e91e63;
+	display:inline;
+	text-decoration:none;
+}
+a:hover{
+	background:#ffffff;
+	color:#e91e63;
+}
+a:focus{
+	background:#ffffff;
+	color:#e91e63;
+}
+a:active{
+	border: 1px solid #000000;
+}
+
+ul{
+	list-style-type:square;
+}
+
+#order{
+	list-style-type: upper-roman;
+}
+
+#image{
+	border:5px inset rgb(248, 249, 251);
+	margin:0 auto;
+}
+
+.mail{
+     color:#ffffff;
+     background:#c2185b;
+}
+     
+p:hover{
+	border:1px;
+}
+button{
+	background:#00ffff;
+	border:2px solid #666666;
+	padding:1%;
+	display:inline-block;
+	width:20%;
+	margin-left:19.5%;
+}
+button:hover{
+	border:2px inset #ffffff;
+}
+#abcd,#stuff{
+	width:40%;
+	margin-left:30%;
+	border:2px solid #000000;
+}
+#stuff{
+	background:#ffffff;
+	text-color:#B3B3B3;
+}
+
+.closed{
+		display: none;
+}
+.open{
+		display: block;
+}
+
+#demo{
+  		color:white;
+		background-color: #7F7F7F;
+      		padding:10px;
+      		font-size:120%
+}
+	
+}
+</style>
+
+<script>
+function closeMe(){
+      // Find the element
+   		x=document.getElementById("demo");
+       //Option 1: Change the style attribute directly
+   		x.style.display="none";
+  
+      //Option 2: Change the class
+   		 // x.className="closed";
+	}
+
+function openMe(){
+      // Find the element
+   		x=document.getElementById("demo");
+      //Option 1: Change the style attribute directly
+   		 x.style.display="block";
+      
+      //Option 2: Change the class
+   		 // x.className="open";
+	}
+</script>
+
+  <meta charset ="utf-8">
+
+  <title>hello IET</title>
+
+ <link rel="icon" type="image/jpg" href="colorful_space_abstract.jpg" />
+</head>
+
+<body>
+
+  <h1>Helloo <em>ietians</em></h1>
+  <h2>good dayy!</h2>
+
+  <div>The Institute of Engineering & Technology',
+  commonly referred to as IET, alternately 'IET DAVV 
+  is an engineering branch of Devi Ahilya Vishwavidyalaya. 
+  The college was founded as an autonomous institute in 1996. 
+  It takes a fees of 84,000 per year and takes 2500 exam fees
+  per semester.
+  </div>
+
+  <div>ADDRESS: Institute of Engineering & Technology
+  (DAVV, Khandwa Rd, Davv Takshila Parisar, Indore,
+  Madhya Pradesh 452020
+  </div>                                                                                                                                       
+
+  <div>DIRECTOR: Dr. Sanjiv Tokekar
+  FOUNDED: 1996
+ AFFILIATIONS: University Grants Commission, National 
+  Assessment and Accreditation Council</div>
+
+  <header>Here's something exciting</header>
+
+  <p><i>tap below</i><strong>"Result"</strong>to show it</p>
+
+ <nav>
+    <a href = "http://www.ietdavv.edu.in/index.php/results">RESULT</a>
+    <br>
+    <a href="http://www.ietdavv.edu.in/index.php/results" target="_blank">result</a>
+    <br>
+    <a href = "mailto:ruchi2452002@gmail.com?subject=exam%20result&body=your%20result%20is%20out"  class="mail">Email me</a>
+ </nav>
+  <br><br>
+
+ <h1><i>IMAGES</i></h1>
+ <p> look at this image <img src="colorful_space_abstract.jpg" id="image" alt="SPACE">it's just beautifull!! </p>
+
+
+ <h1><i>LISTS</i></h1>
+ <ul>
+  <li>red</li>
+  <li>orange</li>
+  <li>blue</li>
+ </ul>
+ <br>
+ <ol id="order">
+  <li>red</li>
+  <li>orange</li>
+  <li>blue</li>
+ </ol>
+ <br>
+ <ol reversed>
+  <li>red</li>
+  <li>orange</li>
+  <li>blue</li>
+ </ol>
+
+ <ul>
+  <li>red</li>
+  <li>orange</li>
+  <li>blue
+  <ol>
+  <li>R</li>
+  <li>O</li>
+  <li>B</li>
+  </ol></li>
+
+ </ul>
+
+ <h1><i>TABLES</i></h1>
+ <table class="num">
+	<caption>NUMBERS</caption>
+
+	<thead>
+	<tr>
+	  <th scope="col">Number</th>
+	  <th scope="col">In words</th>
+	  <th scope="col">Terms</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	<tr >
+	  <td>1</td>
+	  <td>one</td>
+	  <td>1ST</td>
+	</tr>
+
+	<tr>
+	  <td>2*<span>SPECIAL</span></td>
+	  <td>two</td>
+	  <td>2ND</td>
+	</tr>
+
+	<tr >
+  	  <td>3</td>
+	  <td>three</td>
+	  <td>3RD</td>
+	</tr>
+
+	<tr>
+	  <td>4*<span>SPECIAL</span></td>
+	  <td>four</td>
+	  <td>4TH</td>
+	</tr>
+
+	<tr>
+	  <td>5</td>
+	  <td>five</td>
+	  <td>5TH</td>
+	</tr>
+
+	</tbody>
+
+ </table>
+
+ 
+ <br>
+
+ <h1><i>AUDIO</i></h1>
+
+<div align="center">
+ <audio src="AUD-20200428-WA0002.mp3" controls>
+
+ </audio>
+ 
+</div>
+
+ <br>
+
+ <h1><i>MODIFY THE DOM</i></h1>
+
+ 
+ <button onclick="document.getElementById('stuff').innerHTML='Clicked first Button';">First</button>
+ <button onclick="document.getElementById('stuff').innerHTML='Clicked Second Button';">Second</button>
+
+ <p id="abcd">This code shouldn't change.</p>
+ <p id="stuff">This will change.</p>
+ <p id="abcd">This shouldn't change either.</p>
+
+ <h1><i>changing the style</i></h1>
+ <p>javascript can change the style of an HTML element.</p>
+ <button onclick="openMe()">Open!</button>
+ <button onclick="closeMe()">Close!</button>
+
+ <p id="demo">Extra details...You can open and close this paragraph using the buttons above.</p>
+
+</body>
+
+</html>
